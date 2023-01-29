@@ -1,0 +1,73 @@
+/*------- RESETEO ------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*------- ENCABEZADO ------- */
+
+header h1 {
+    margin: 10px;
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    }
+
+header .nav-link {
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+  }
+
+  header .nav-link:hover {
+    color:green;
+    transition-duration: 1s;
+  }
+
+  header .d-flex {
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    color:white;
+  }
+
+  /*------- MAIN - FOTO ------- */
+
+
+  .card {
+    background-color: cadetblue;
+    margin: 0 auto;
+    padding: 10px;
+    width: 70%;
+    border-radius: 15px;
+    ;
+  }
+
+  .card h2 {
+    text-align: center;
+    color: white;
+  }
+
+  .card-title {
+    text-align: center;
+    color: white;
+  }
+
+  .card-text {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
