@@ -71,3 +71,32 @@ header .nav-link {
     color: white;
   }
 
+    /*------- MAIN - SERVICIOS ------- */
+
+    .servicios h2 {
+      text-align: center;
+      color: white;
+      background-color: cadetblue;
+      margin: 10px;
+      padding: 10px;
+    }
+    .container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+    }
+
+   .card-img-top {
+   border-radius: 15px;
+   border: 2px solid black;
+   }
+
+   .card-text {
+    color: black;
+    box-shadow: 0px 0px 10px 0px;
+    border: 2px solid black;
+   }
+
+    
+
+  
