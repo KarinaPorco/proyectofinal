@@ -97,6 +97,53 @@ header .nav-link {
     border: 2px solid black;
    }
 
+        /*------- MAIN - PRODUCTOS ------- */
+
+    .container {
+    margin: 10px;
+    padding: 10px;
     
+   
+   }
+
+   .productos h2 {
+    text-align: center;
+      color: white;
+      background-color: cadetblue;
+      margin: 10px;
+      padding: 10px;
+    }
+
+   
+   .col {
+    
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+  
+   
+   }
+
+   .col h3, 
+   .col span {
+    font-size: 24px;
+   }
+
+   .col img {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+   
+   }
+
+  
+   .col a {
+    border: 2px solid black;
+    background-color: cadetblue;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 10px;
+   }
 
   
