@@ -1,0 +1,59 @@
+/*------- ENCABEZADO ------- */
+header h1 {
+    margin: 10px;
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+  }
+  
+  
+/*------- MAIN - FOTO ------- */
+.card {
+    background-color: cadetblue;
+    margin: 0 auto;
+    padding: 10px;
+    width: 70%;
+    border-radius: 15px;
+    ;
+  }
+  
+  
+/*------- MAIN - SERVICIOS ------- */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+  }
+
+  /*------- MAIN - PRODUCTOS ------- */
+  .productos {
+    margin: 10px;
+    padding: 10px;
+  overflow: auto;
+  
+  }
+  
+/*------- MAIN - FORMULARIO ------- */
+.contenedor-formulario {
+    margin: 10px;
+    padding: 10px;
+    background-color: cadetblue;
+  }
+  
+  /*------- MAIN - FOOTER ------- */
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    
+    
+  }
+  
